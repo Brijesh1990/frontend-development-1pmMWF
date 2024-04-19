@@ -68,8 +68,9 @@
         </ul>
        </div>
     </nav>
+
     <div class="container-fluid  p-5 mt-0 shadow">
-        <h2>Manage Your Profile</h2>
+        <h2>Manage All Data</h2>
         <hr class="border border-1 border-dark w-25">
 
         <div class="row">
@@ -87,34 +88,84 @@
                 </p>
             </div>
             <div class="col-md-7 ms-5 shadow p-5 mt-3 mange-profile">
-                <h2>Update Your Profile ?<span class="bi bi-person"></span></h2>
+                <h2>Display All Users Data  ?<span class="bi bi-person"></span>   <button type="button" class="btn btn-sm btn-danger text-white float-end">Export in CSV</button></h2>
                 <hr class="border border-1 border-dark w-25">
-                <form>
-                    <div class="row">
-                        <div class="form-group col-md-6 mt-3">
-                            <input type="text" name="fname" placeholder="FirstName" value="Brijesh" class="form-control">
-                        </div>
-                        <div class="form-group col-md-6 mt-3">
-                            <input type="text" name="lname" placeholder="LastName" value="Pandey" class="form-control">
-                        </div>
-                    </div>
+             
+                <table class="table table-responsive table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            <th>Action</th>
+                        </tr> 
+                    </thead>
 
-                    <div class="form-group col-md-12 mt-3">
-                        <input type="text" name="email" placeholder="Email" value="bkpandey.pandey@gmail.com" class="form-control">
-                    </div>
+                    <tbody>
+                        <tr>
+                            <td>101</td>
+                            <td>Brij</td>
+                            <td>brij@gmail.com</td>
+                            <td>9998003879</td>
+                            <td>150 feet ring road</td>
+                            <td><a href="" class="btn btn-sm btn-primary text-white"><span class="bi bi-pencil"></span></a>
+                            |
 
-                    <div class="form-group col-md-12 mt-3">
-                        <input type="text" name="phone" placeholder="phone" value="(+91)9173357217" class="form-control">
-                    </div>
+                            <a href="" class="btn btn-sm btn-danger text-white"><span class="bi bi-trash"></span></a>
+                            
+                            </td>
+                        </tr> 
 
-                    <div class="form-group col-md-12 mt-3">
-                        <textarea placeholder="address" class="form-control">150 feet ring road rajkot</textarea>
-                    </div>
+                        <tr>
+                            <td>101</td>
+                            <td>Brij</td>
+                            <td>brij@gmail.com</td>
+                            <td>9998003879</td>
+                            <td>150 feet ring road</td>
+                            <td><a href="" class="btn btn-sm btn-primary text-white"><span class="bi bi-pencil"></span></a>
+                            |
 
-                    <div class="form-group col-md-12 mt-3">
-                        <input type="submit" name="Update" value="Update Profile"  class="btn btn-md btn-dark text-white">
-                    </div>
-                </form>
+                            <a href="" class="btn btn-sm btn-danger text-white"><span class="bi bi-trash"></span></a>
+                            
+                            </td>
+                        </tr> 
+
+                        <tr>
+                            <td>101</td>
+                            <td>Brij</td>
+                            <td>brij@gmail.com</td>
+                            <td>9998003879</td>
+                            <td>150 feet ring road</td>
+                            <td><a href="" class="btn btn-sm btn-primary text-white"><span class="bi bi-pencil"></span></a>
+                            |
+
+                            <a href="" class="btn btn-sm btn-danger text-white"><span class="bi bi-trash"></span></a>
+                            
+                            </td>
+                        </tr> 
+
+                        <tr>
+                            <td>101</td>
+                            <td>Brij</td>
+                            <td>brij@gmail.com</td>
+                            <td>9998003879</td>
+                            <td>150 feet ring road</td>
+                            <td><a href="#" class="btn btn-sm btn-primary text-white"  ><span class="bi bi-pencil"></span></a>
+                            |
+
+                            <a href="#" class="btn btn-sm btn-danger text-white" class="bi bi-trash" onclick="return confirm('Are you sure to Delete Users ?')"><span class="bi bi-trash"></span></a>
+                            
+                            </td>
+                        </tr> 
+                    </tbody>
+
+                  
+                </table>
+
+
+
             </div>
       
    
@@ -132,7 +183,6 @@
                     <li><a href="" class="text-white">Contact us</a></li>
                     <li><a href="" class="text-white">Our Services</a></li>
                     <li><a href="" class="text-white">Blogs</a></li>
-                    <li><a href="managedata.html" class="text-white">Manage Data</a></li>
                     <li><a href="" class="text-white">Privacy & Policy</a></li>
                 </ul>
             </div>
